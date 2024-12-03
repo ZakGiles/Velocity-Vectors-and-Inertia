@@ -19,7 +19,6 @@ function updatePosition(car) {
     document.getElementById("display-velocity").innerText = `${car.xVelocity} horizontal, ${-car.yVelocity} Vertical`
 
     document.getElementById(`${car.x}, ${car.y}`).style.backgroundColor = "rgb(98, 183, 240)";
-    document.getElementById(`${car.x}, ${car.y}`).setAttribute("z-index", 0);
     car.x = car.x + car.xVelocity;
     car.y = car.y + car.yVelocity;
     document.getElementById(`${car.x}, ${car.y}`).style.backgroundColor = "rgb(240, 83, 83)";
