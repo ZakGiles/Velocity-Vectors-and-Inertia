@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Velocity Vectors and Inertia</title>
+</head>
+<body>
+    <h1>Velocity Vectors and Inertia</h1>
+    <p>Click the arrows to change the velocity of the particle</p>
+    <p>Current velocity: <b id="display-velocity">0 horizontal, 0 vertical</b></p>
+    <div id="container">
+        <div id="lines">
+            <svg height="600" width="800" xmlns="http://www.w3.org/2000/svg"></svg>
+        </div>
+        <div id="grid">
+
+        </div>
+    </div>
+    <div class="controls">
+        <div>
+            <button class="control-buttons" id="add-up-left">&#8598;</button><button class="control-buttons" id="add-up">&#8593;</button><button class="control-buttons" id="add-up-right">&#8599;</button>
+        </div>
+        <div>
+            <button class="control-buttons" id="add-left">&#8592;</button><button class="control-buttons" id="add-none">&#9675;</button><button class="control-buttons" id="add-right">&#8594;</button>
+        </div>
+        <div>
+            <button class="control-buttons" id="add-down-left">&#8601;</button><button class="control-buttons" id="add-down">&#8595;</button><button class="control-buttons" id="add-down-right">&#8600;</button>
+        </div>
+    </div>
+    
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
